@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="NavigationSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NavigationSample">
+
+    <Application.Resources>
+        <Style TargetType="TextBlock" x:Key="MyAppTextBlock">
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
