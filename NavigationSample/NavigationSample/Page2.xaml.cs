@@ -38,6 +38,8 @@ namespace NavigationSample
 
             var nav = (NavigationContext)e.Parameter;
             myTextBlock.Text = nav.Description;
+
+            messageTextBox.Text = string.Format("BackStack count is {0}, BackStackDepth is {1}.", Frame.BackStack.Count, Frame.BackStackDepth);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

@@ -41,6 +41,8 @@ namespace NavigationSample
             }
 
             pagesTextBlock.Text = myPages;
+
+            messageTextBox.Text = string.Format("BackStack count is {0}, BackStackDepth is {1}.", Frame.BackStack.Count, Frame.BackStackDepth);
         }
 
         private void goForward_Click(object sender, RoutedEventArgs e)

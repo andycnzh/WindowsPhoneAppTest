@@ -43,6 +43,8 @@ namespace NavigationSample
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
+
+            messageTextBox.Text = string.Format("BackStack count is {0}, BackStackDepth is {1}.", Frame.BackStack.Count, Frame.BackStackDepth);
         }
 
 
